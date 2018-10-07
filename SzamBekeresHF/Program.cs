@@ -10,6 +10,7 @@ namespace SzamBekeresHF
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             int db = 0;
             int szam, lngth;
             List<int> szamLista = new List<int>();
@@ -47,6 +48,8 @@ namespace SzamBekeresHF
             }
 
             Console.ReadKey();
+=======
+>>>>>>> master
         }
     }
 }

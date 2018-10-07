@@ -1,6 +1,9 @@
 G:\all\Petrik\2.év\SzoftFejl\5.ora HF\SzamBekeresHF\SzamBekeresHF\bin\Debug\SzamBekeresHF.exe.config
+<<<<<<< HEAD
 G:\all\Petrik\2.év\SzoftFejl\5.ora HF\SzamBekeresHF\SzamBekeresHF\bin\Debug\SzamBekeresHF.exe
 G:\all\Petrik\2.év\SzoftFejl\5.ora HF\SzamBekeresHF\SzamBekeresHF\bin\Debug\SzamBekeresHF.pdb
 G:\all\Petrik\2.év\SzoftFejl\5.ora HF\SzamBekeresHF\SzamBekeresHF\obj\Debug\SzamBekeresHF.csprojResolveAssemblyReference.cache
 G:\all\Petrik\2.év\SzoftFejl\5.ora HF\SzamBekeresHF\SzamBekeresHF\obj\Debug\SzamBekeresHF.exe
 G:\all\Petrik\2.év\SzoftFejl\5.ora HF\SzamBekeresHF\SzamBekeresHF\obj\Debug\SzamBekeresHF.pdb
+=======
+>>>>>>> master
