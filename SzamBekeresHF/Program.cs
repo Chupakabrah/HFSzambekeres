@@ -14,7 +14,7 @@ namespace SzamBekeresHF
             int szam, lngth;
             List<int> szamLista = new List<int>();
 
-            Console.WriteLine("Kérem adja meg, hogy hány számot szeretne megadni : ");
+            Console.Write("Kérem adja meg, hogy hány számot szeretne megadni : ");
             lngth = Convert.ToInt32(Console.ReadLine());
             int[] szamTomb = new int[lngth];
             Console.WriteLine("Kérem adjon meg " + lngth + "db számot!");
@@ -27,8 +27,8 @@ namespace SzamBekeresHF
                 db++;
             } while (db < lngth);
 
-            Console.WriteLine("\n(Tömb) Max : " + MinMaxSzamok.MaxSzam(szamTomb));
-            Console.WriteLine("\n(Lista) Max : " + szamLista.Max());
+            Console.WriteLine("\n(Tömb) Max : " + MinMaxSzamok.MaxSzam(szamTomb) + "\n(Tömb) Min : " + MinMaxSzamok.MinSzam(szamTomb));
+            Console.WriteLine("\n(Lista) Max : " + szamLista.Max() + "\n(Lista) Min : " + szamLista.Min());
             Console.ReadKey();
         }
     }

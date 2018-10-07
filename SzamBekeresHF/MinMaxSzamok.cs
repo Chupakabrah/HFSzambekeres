@@ -18,8 +18,30 @@ namespace SzamBekeresHF
                     max = tomb[i];
                 }
             }
-
             return max;
         }
+
+        public static int MinSzam(int[] tomb)
+        {
+            int max = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (max < tomb[i])
+                {
+                    max = tomb[i];
+                }
+            }
+
+            int min = max;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (min > tomb[i])
+                {
+                    min = tomb[i];
+                }
+            }
+            return min;
+        }
+
     }
 }
